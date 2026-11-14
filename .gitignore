@@ -1,0 +1,10 @@
+# 依存パッケージ（React 01以降で使用）
+node_modules/
+
+# 環境変数ファイル（パスワード等の機密情報）
+.env
+.env.local
+
+# OS が自動生成するファイル
+.DS_Store
+Thumbs.db
