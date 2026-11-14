@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZeroPlusブログ</title>
+  <!-- daisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <!-- Tailwind CSS browser -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-brand: #008db7;
+      --color-text: #333;
+      --color-text-sub: #aaa;
+      --color-bg-gray: #f7f7f7;
+      --color-nav-bg-mobile: #e8e8e8;
+      --shadow-card: 2px 2px 4px rgba(170, 170, 170, 0.16);
+      --max-width-content: 840px;
+      --font-sans: "Noto Sans JP", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <main class="max-w-content mx-auto px-4">
+    <h1 class="text-2xl md:text-3xl font-bold text-brand mb-2 text-center">
+      ZeroPlus Blog
+    </h1>
+  </main>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
